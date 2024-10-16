@@ -114,3 +114,24 @@ console.log(user);
 //consola edad
 //alert calle no colonia delegacion
 //consola amigos 
+
+function ejercicio(user){
+
+    console.log(user.nombre+ '' +user.apellidoP + '' + user.apellidoM);
+    console.log('edad:' + user.edad);
+    console.log(user.amigos);
+
+    if (user.activo = true){
+        alert ('usuario activo');
+
+    }
+    else{
+        if(user.activo= false){
+            alert('Usuario inactivo'):
+        }
+    }
+}
+
+alert(user.direccion.calle + '' + user.direccion.nombre + '' + user.direccion.colonia + '' + user.direccion.delegacion);
+
+ejercicio(user);
